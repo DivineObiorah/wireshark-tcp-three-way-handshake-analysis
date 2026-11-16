@@ -1,0 +1,26 @@
+# Packet captures may contain sensitive traffic; keep local unless reviewed.
+*.pcap
+*.pcapng
+captures/*
+!captures/README.md
+!captures/.gitkeep
+
+# Local backups
+backup/*
+!backup/README.md
+!backup/.gitkeep
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary/log files
+*.log
+*.tmp
+*.bak
